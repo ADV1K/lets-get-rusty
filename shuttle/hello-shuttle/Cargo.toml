@@ -1,0 +1,12 @@
+[package]
+name = "hello-shuttle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.7.3"
+shuttle-axum = "0.38.0"
+shuttle-runtime = "0.38.0"
+tokio = { version = "1.35.1", features = ["full"] }
